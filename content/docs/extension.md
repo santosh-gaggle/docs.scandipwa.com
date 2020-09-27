@@ -267,7 +267,7 @@ ScandiPWA has a long-standing bug - the templates are impossibble to override. F
 ```js
 // In the "webpack.production.config.js"
 path.resolve(projectRoot, 'src', 'public', 'index.production.phtml') // from "index.production.phtml"
-path.resolve(projectRoot, 'src', 'public', 'index.production.phtml') // to "my-index.production.phtml"
+path.resolve(projectRoot, 'src', 'public', 'my-index.production.phtml') // to "my-index.production.phtml"
 
 // In the "webpack.development.config.js"
 path.resolve(projectRoot, 'src', 'public', 'index.development.html') // from "index.development.html"
